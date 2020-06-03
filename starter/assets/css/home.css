@@ -61,7 +61,8 @@
   color: #6C6C80;
 }
 
-.content main a {
+.content main button {
+  border: 0;
   width: 100%;
   height: 72px;
   max-width: 360px;
@@ -72,7 +73,7 @@
   transition: background 0.4s;
 }
 
-.content main a strong {
+.content main button strong {
   flex: 1;
   text-align: center;
   font-size: 16px;
@@ -80,7 +81,7 @@
   color: #FFFFFF;
 }
 
-.content main a div {
+.content main button div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,6 +91,6 @@
   border-radius: 8px 0px 0px 8px;
 }
 
-.content main a:hover {
+.content main button:hover {
   background: var(--primary-darken-color);
 }

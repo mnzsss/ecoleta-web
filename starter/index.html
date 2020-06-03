@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
   </head>
@@ -31,18 +32,40 @@
 
           <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
 
-          <a href="#!">
+          <button class="search-point">
             <div>
               <img src="./assets/icones/search.svg" alt="Pesquisar pontos de coleta">
             </div>
             <strong>Pesquisar pontos de coleta</strong>
-          </a>
+          </button>
         </main>
 
       </div>
 
     </div>
 
+    <div class="modal ">
+      <div class="content">
+        <div class="header">
+          <h1>Pontos de Coleta</h1>
+          <button class="close">
+            <img src="./assets/icones/x.svg" alt="Fechar Modal">
+          </button>
+        </div>
+
+        <form action="">
+          <div class="search field">
+            <input type="text" name="search" placeholder="Digite a Cidade">
+            <button type="submit">
+              <img src="./assets/icones/search.svg" alt="Buscar Cidade">
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <script src="./assets/js/modal.js"></script>
   </body>
 
 </html>
