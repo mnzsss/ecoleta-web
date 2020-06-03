@@ -1,5 +1,5 @@
 <p align="center">
- <img alt="Ecoleta" src="./assets/icones/logo.svg" />
+ <img alt="Ecoleta" src="./starter/assets/icones/logo.svg" />
 </p>
 
 <h1 align="center">Welcome to Ecoleta Web 👋</h1>

@@ -2,6 +2,8 @@
 :root {
   --title-color: #322153;
   --primary-color: #34CB79;
+  --primary-darken-color: #2FB86E;
+  --primary-lighten-color: #E1FAEC;
 }
 
 * {

@@ -86,10 +86,10 @@
   align-items: center;
   height: 100%;
   width: 72px;
-  background: #2FB86E;
+  background: var(--primary-darken-color);
   border-radius: 8px 0px 0px 8px;
 }
 
 .content main a:hover {
-  background: #2FB86E;
+  background: var(--primary-darken-color);
 }
