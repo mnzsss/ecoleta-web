@@ -89,24 +89,30 @@ export const Container = styled.div`
         margin-bottom: 8px;
       }
 
-      input::placeholder {
-        color: #a0a0b2;
-      }
+      input {
+        &[type='text'],
+        &[type='email'],
+        &[type='number'] {
+          flex: 1;
+          background: #f0f0f5;
+          border: 2px solid #f0f0f5;
+          border-radius: 8px;
+          padding: 16px 24px;
+          font-size: 16px;
+          color: #6c6c80;
+        }
 
-      input + input {
-        margin-left: 24px;
-      }
+        &:focus {
+          border-color: #34cb79;
+        }
 
-      input[type='text'],
-      input[type='email'],
-      input[type='number'] {
-        flex: 1;
-        background: #f0f0f5;
-        border-radius: 8px;
-        border: 0;
-        padding: 16px 24px;
-        font-size: 16px;
-        color: #6c6c80;
+        &::placeholder {
+          color: #a0a0b2;
+        }
+
+        & + input {
+          margin-left: 24px;
+        }
       }
 
       select {
@@ -181,7 +187,6 @@ export const Container = styled.div`
       align-items: center;
 
       text-align: center;
-
       cursor: pointer;
 
       span {

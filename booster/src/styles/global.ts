@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300;700&display=swap');
 :root {
   --primary-color: #34CB79;
   --title-color: #322153;
@@ -11,6 +10,7 @@ export default createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
