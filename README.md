@@ -17,6 +17,10 @@
   <img alt="Home Page" src="./github/1.png" />
 </p>
 
+## API Rest
+
+Para utilizar a aplicação de maneira completa acesse a [API da Ecoleta](https://github.com/mnzsss/ecoleta-api)
+
 ## Author
 
 👤 **Gabriel Menezes**
