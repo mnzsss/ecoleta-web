@@ -14,7 +14,7 @@
 ## Demo
 
 <p align="center">
-  <img alt="Home Page" src="./github/1.png" />
+  <img alt="Home Page" src="./github/preview.gif" />
 </p>
 
 ## API Rest
